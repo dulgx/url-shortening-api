@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import HeroComponent from "./HeroComponent";
+import EmailInput from "./EmailInput";
 
 const Main = () => {
   return (
@@ -8,6 +9,7 @@ const Main = () => {
       <div className="h-screen">
         <Nav />
         <HeroComponent />
+        <EmailInput />
       </div>
     </>
   );
