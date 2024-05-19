@@ -15,7 +15,7 @@ const Nav = () => {
 
       <div className="flex flex-row justify-end items-center gap-10">
         <button className=" text-zinc-400 font-semibold">Login</button>
-        <button className="bg-teal-500 text-white p-1.5 px-4 rounded-3xl">
+        <button className="bg-teal-500 text-white p-1.5 px-4 rounded-3xl hover:bg-teal-300">
           Sign Up
         </button>
       </div>
